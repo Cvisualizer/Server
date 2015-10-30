@@ -10,7 +10,7 @@
     "npm": "2.7.4"
   },
   "dependencies": {
-    "async": "v0.12.2",
-    "socket.io": "v0.12.2"
+    "async": "*",
+    "socket.io": "*"
   }
 }
