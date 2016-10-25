@@ -1,18 +1,10 @@
-int a,b;
-int g(int a,int b){
-  return a * b * 10;
+int count(int a){
+if(a>1){
+count(a-1);
 }
-int f(){
-  int a;
-  a = 5;
-  return a * a;
+return a;
 }
 
-int main()
-{
-  a = b = 10;
-  printf g(5, 5);
-  printf f();
-  printf a;
-  return(0);
+int main(){
+printf count(10);
 }
